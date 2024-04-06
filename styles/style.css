@@ -11,6 +11,7 @@ html {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -43,7 +44,8 @@ ol {
   display: flex;
   align-items: end;
   gap: 30px;
-  min-inline-size: 1140px;
+  inline-size: 1140px;
+  margin: auto;
 }
 
 .content__list {
